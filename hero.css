@@ -1,0 +1,116 @@
+html, body{
+	font-family: open sans, san-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	background-color: #BD1328;
+	padding: 25px;
+	text-align: center;
+	background-image: url('../img/baymax8bit.png');
+	background-repeat: repeat;
+	background-size: 100px;
+	background-blend-mode: multiply;
+}
+
+header h1{
+	font-size: 60px;
+	color: #ffffff;
+	margin: 0;
+	text-shadow: 2px 2px 4px black;
+}
+
+header h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0;
+	text-shadow: 2px 2px 2px black;
+}
+
+.intro {
+	background-color: #000000;
+	padding: 10px 25px 50px 25px;
+}
+
+img.movie{
+	float: left;
+	width: 100px;
+	margin: 0px;
+}
+
+img.disney{
+	float: right;
+	width: 100px;
+	margin: 0px;
+	padding-right: 50px;
+}
+
+.wrapper header img{
+	border-radius: 300px;
+	border:10px solid #ffffff;
+	width: 250px;
+	box-shadow: 2px 2px 10px black;
+}
+
+.content{
+	margin: auto 75px;
+	padding: 25px;
+}
+
+.content h1{
+	font-size: 30px;
+	color: #000000;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.content h2{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0;
+}
+
+img.big-image{
+	max-width: 85%;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	}
+
+ol{
+	list-style: none;
+}	
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.content a{
+	color:#000000;
+	text-decoration: none;
+}
+
+a{
+	color:red;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #e6e6e6;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+}
